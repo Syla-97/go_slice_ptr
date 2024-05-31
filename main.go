@@ -4,7 +4,7 @@ import "fmt"
 
 type ttt struct {
 	str string
-	num	int
+	num int
 }
 
 func main() {
