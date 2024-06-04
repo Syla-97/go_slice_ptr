@@ -30,6 +30,7 @@ func sub(test *[]ttt) {
 		fmt.Println((*test)[i].num)
 		if (*test)[i].str == "aaa" {
 			(*test)[i].str = "ccc"
+			(*test)[i].num = 3
 		}
 	}
 }
